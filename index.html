@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Brantly SWE</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media, other modifications by Brantly Walker">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github activity css -->    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left rounded-circle" src="https://avatars3.githubusercontent.com/u/11803110?s=460&u=51324fa92dc4993ec882b9231804f15b1919c0c3&v=4" alt="profile image" style="width:200px;height:200px;" />
+            <div class="profile-content float-left">
+                <h1 class="name">Brantly Walker</h1>
+                <h2 class="desc">Software Engineer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/brantlyw" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/agentdata" target="_blank"><i class="fab fa-github-alt"></i></a></li>            
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary float-right" href="mailto:brantly.w@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>
+                                Hi there! I have been working various IT roles over the last 7 years while advancing and learning everything I can there. During this time I have also been pursuing my Bachelor's Degree in CS and learning how to code and think pragmatically about algorithms and data structures.
+                            </p>
+                            <p>
+                                I have strong troubleshooting and problem solving skills as well as broad tech knowledge and always do my best to work through problems until i'm confident the solutions I create work and are laid out in the best way they can be for flexibility, readability as well as testability! I don't like to rush things and always try to give everything plenty of attention to details. I'm successful while working on a team as well as on my own. I'm a self starter and highly motivated.
+                            </p>
+                            <p>
+                                I am eagerly searching for my first Full Time Software Development role!
+                                Thanks for reading!
+                            </p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//about section-->
+                
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">LMS - Capstone Project (React, Spring Boot, MongoDB):</h3>
+                                <p class="summary">
+                                    I led a University capstone team of a 5 developing an LMS. Which included integrated payment connecting to stripe APIs. I was involved with almost every part of the app and personally built the infrastructure on my home server and Dockerized each component (NGINX public facing web server and reverse proxy, REST API (Tomcat), React web app (Node), MongoDB).</br>
+                                    <a href="https://github.com/agentdata/CS3750-CoolioCoders-LMS" target="_blank"><i class="fas fa-external-link-alt"></i> Github Repo</a></br>
+                                    <a class="more-link" href="https://lms.brantlywalker.com" target="_blank"><i class="fas fa-external-link-alt"></i>Live page</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Invoice System (C#, Access DB):</h3>
+                                <p class="summary">
+                                    I led a University team of 3 developing a desktop invoice app which had the capability to create, modify and search invoices. The app utilized a view structure that allowed for a menu bar for navigation throughout the entire app while switching the main body, shifted focus and darkened main app on menu drop downs.</br>
+                                    <a href="https://github.com/agentdata/InvoiceSystem" target="_blank"><i class="fas fa-external-link-alt"></i> Github Repo</a></br>
+                                    <a class="more-link" href="https://github.com/agentdata/InvoiceSystem/releases/tag/Final-release-v1.0" target="_blank"><i class="fas fa-external-link-alt"></i>Download</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Classified ad crawler (Python, JavaScript, MySQL):</h3>
+                                <p class="summary">
+                                    Website where user could enter a search term which would start crawling a few classified ad websites with a Scrapy daemon and would store the results in the DB and auto update the page when finished parsing results. User could also search existing entries in the database on a separate page.</br>
+                                    <a href="https://github.com/agentdata/Classified-Crawler" target="_blank"><i class="fas fa-external-link-alt"></i> Github Repo</a></br>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Team Finance app (Android -Java, iOS -Swift/Objective-C, SQLite):</h3>
+                                <p class="summary">
+                                    I built a mobile app for Android as well as iOS which can be used to keep track of team bills and transparently show the team all of the finances and their current balances.
+                                    Team members can self register by entering in the team name and password. The user can see the team stats, and get a list of all team fees, and all fees they owe. This is still a work in progress.</br>
+                                </p>
+                            </div><!--//item-->
+                            
+                            <a class="btn btn-cta-secondary" href="https://github.com/agentdata" target="_blank">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//projects section-->
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Senior IT Specialist - <span class="place"><a href="https://www.westjordan.utah.gov/">City of West Jordan Hub</a>
+                                </span> <span class="year">(2016 - Present)</span></h3>
+                                <p>
+                                    <ul>
+                                        <li>Analyze and implement new systems for conference rooms, door and camera security, HVAC, internal phone, work order, Document Management.</li>
+                                        <li>Utilize scripting and other software to manage active directory objects and use group policy to manage PCs.</li>
+                                        <li>Troubleshoot, maintain and repair all types of technology such as computers, printers, camera systems, networks.</li>
+                                    </ul>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Junior Systems Admin - <span class="place"><a href="https://www.medonegroup.com/">Med One Capital</a></span>
+                                <span class="year">(2013 - 2014)</span></h3>
+                                <p>
+                                    <ul>
+                                        <li>Manage Windows & Linux servers, mail systems, Door and Video security, Meraki Firewall, MDM and VPN. etc.</li>
+                                        <li>Implemented minor changes to internal iOS app for auditing warehouse inventory.</li>
+                                    </ul>
+                                </p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Advanced Repair Agent - <span class="place"><a href="https://www.bestbuy.com/site/services/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018">Geek Squad - Best Buy</a></span>
+                                <span class="year">(2007 - 2010, 2012-2018)</span></h3>
+                                <p>
+                                    <ul>
+                                        <li>Repaired various types of computers and electronics with software and hardware issues.</li>
+                                        <li>Communicated with clients about services and costs and documented all repair steps, actions and correspondence.</li>
+                                        <li>Coached other employees on proper technique and procedure, including creating some technical documentation.</li>
+                                    </ul>
+                                </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//experience section-->
+
+                <section class="github section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading"><a href="https://github.com/agentdata">My GitHub</a></h2>
+                        
+                        <div id="github-graph" class="github-graph">
+                            <!-- Include the library. -->
+                            <script
+                            src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+                            </script>
+
+                            <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                            <link
+                            rel="stylesheet"
+                            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+                            />
+
+                            <!-- Prepare a container for your calendar. -->
+                            <div class="calendar">
+                                <!-- Loading stuff -->
+                                Loading the data just for you.
+                            </div>
+
+                            <script>
+                                // or enable responsive functionality:
+                                GitHubCalendar(".calendar", "agentdata", { responsive: true });
+
+                            </script>
+
+                        </div><!--//github-graph-->
+                    </div><!--//secton-inner-->
+                </section><!--//github section-->
+
+            </div><!--//primary-->
+
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>West Jordan, UT</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">brantly.w@gmail.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                My experience and skills range from building desktop apps using Java and C# to full stack web apps to iOS and Android mobile apps.
+                            </p>
+                            <!-- 
+                                1 - Fundamental Awareness (basic knowledge)
+                                2 - Novice (limited experience)
+                                3 - Intermediate (practical application)
+                                4 - Advanced (applied theory)
+                                5 - Expert (recognized authority) -->
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Java &amp; C#<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Swift<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Novice</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="35%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Novice</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="35%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Servers &amp; Virtualization<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML, CSS, Javascript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="40%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Powershell &amp; Bash<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Novice</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="35%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//skills section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.S. Computer Science</h3>
+                                <h4 class="university"><a href="https://www.weber.edu/cs">Weber State University</a><span class="year">(2019-2020)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> A.S. Software Development</h3>
+                                <h4 class="university"><a href="https://www.slcc.edu/csis">Salt Lake Community College</a><span class="year">(2015-2018)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//education section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Bulgarian:</strong></span>
+                                    <span class="level">Conversational <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//languages section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="#">Soundtrack</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="#">Metal</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="#">Electronic</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="#">Opera</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//music section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-calendar-alt"></i>DockerCon2020 (Virtual)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//conferences section-->
+
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->     
+    <section> <!--//Script section-->
+        <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+        <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+        <!-- github calendar plugin -->
+        <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+        <!-- github activity plugin -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+        <!-- custom js -->
+        <script type="text/javascript" src="assets/js/main.js"></script>      
+    </section>  <!--//Script section-->         
+</body>
+</html> 
+
